@@ -31,9 +31,7 @@ function sortOneNumber() {
     oddNumbers.push(numberToSort); // If odd, add to oddNumbers array
     console.log("Added to odd:", oddNumbers);
   }
-
-  // Remove this line! We will now call render() once from sortAllNumbers or wherever this is triggered
-  // render();
+  render();
 }
 
 function sortAllNumbers() {
